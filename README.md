@@ -69,7 +69,10 @@ Plant 2 and multi-plant optimization is a natural next step.
 - Mutex: ct + dt ≤ 1 (cannot charge and discharge simultaneously)
 - Power balance: Solar + Grid_buy + Discharge = Load + Grid_sell + Charge
 - Total sold ≤ Total generated
+- Final battery state ≥ Initial battery state
+
 **Objective:** Minimize net grid cost
+
 
 **Battery Parameters:**
 - Capacity: 50 kWh
@@ -133,6 +136,3 @@ A V Praveen
 
 github.com/venkatapraveen5
 
-- Final battery state ≥ Initial battery state
-
-**Objective:** Minimize net grid cost
